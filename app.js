@@ -37,7 +37,7 @@ app.post('/', (req, res) => {
     const url = "https://us12.api.mailchimp.com/3.0/lists/374bac4a5b"
 
     const options = {
-        auth: "roman:45ad0c7f4b66708b5fd74c32c4f8ba84-us12",
+        auth: "roman:8451d4f3518bc4622fd34bc5e9338111-us12",
         method: "POST",
     }
 
@@ -59,7 +59,7 @@ app.post('/', (req, res) => {
 app.listen(process.env.PORT || 3000, () => console.log('Server is running on port 3000'))
 
 //API KEY
-//45ad0c7f4b66708b5fd74c32c4f8ba84-us12
+//8451d4f3518bc4622fd34bc5e9338111-us12
 
 //List ID
 //374bac4a5b
